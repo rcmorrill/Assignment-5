@@ -30,7 +30,8 @@ html,body{
 /*-----------tooltip-----------*/
 .canvas .custom-tooltip{
     position:absolute;
-    border:1px solid red;
+    border:1px solid gray;
+    background:white;
     width:150px;
     min-height:10px;
     padding:0px 10px;
@@ -43,5 +44,17 @@ body{
 h1{ font-size:2em;}
 h2{ font-size:1.1em;}
 p{ font-size: .9em;}
+
+/*------------map-------------*/
+.neighborhoods{
+    fill:none;
+    stroke:black;
+    stroke-width:1px;
+}
+
+ .label{
+ 	 	font-size: 12px;
+ }
+
 
 /*------------svg--------------*/
